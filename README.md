@@ -171,7 +171,6 @@ npm install renameimg-cli -g
 ```
 ### 四、其他
 1、上传到私有npm。
-[https://mxkw.yuque.com/cpxg11/rb4p77/wa7sh1](https://mxkw.yuque.com/cpxg11/rb4p77/wa7sh1)
 2、版本号规范
 npm社区版本号规则采用的是[semver](https://link.jianshu.com/?t=http://semver.org/lang/zh-CN/)（语义化版本），主要规则版本格式：主版本号.次版本号.修订号，版本号递增规则如下：
 ```
@@ -195,7 +194,6 @@ npm version patch
 git push
 echo 开始发布到npm私服...
 #需要事先提前登录账号
-npm publish --registry https://npm.xkw.cn/repository/xkw-npm-hosted-repo/
 #echo 发布的私服完毕，开始发布到npm官网...
 #npm publish --registry https://registry.npmjs.org/
 echo 发布完毕
